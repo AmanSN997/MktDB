@@ -8,6 +8,7 @@ import os
 app = Flask(__name__)
 
 # Define the path to the data directory relative to app.py
+# Define the path to the data directory relative to app.py
 DATA_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data')
 TEMPLATES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'templates')
 
